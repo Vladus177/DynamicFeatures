@@ -1,0 +1,2 @@
+include ':app', ':libraries:common-data', ':libraries:common-domain', ':libraries:common-feature', ':libraries:common-presentation', 'features:dogs', 'features:home'
+rootProject.name='DynamicFeatures'

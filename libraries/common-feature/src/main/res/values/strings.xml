@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">common-feature</string>
+    <string name="title_feature_dogs">Dogs</string>
+    <string name="title_feature_home">Home</string>
+</resources>

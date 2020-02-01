@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DynamicFeatures</string>
+    <string name="title_home">home</string>
+    <string name="title_dogs">dogs</string>
+</resources>
