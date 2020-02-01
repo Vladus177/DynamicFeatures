@@ -2,4 +2,9 @@
     <string name="app_name">DynamicFeatures</string>
     <string name="title_home">home</string>
     <string name="title_dogs">dogs</string>
+    <string name="install_dialog_title">Feature: %s</string>
+    <string name="install_dialog_step_downloading">Downloading…</string>
+    <string name="install_dialog_installing">Installing…</string>
+    <string name="install_dialog_failed">Failed to install, error: %s</string>
+    <string name="install_dialog_installed">Installed successfully</string>
 </resources>
