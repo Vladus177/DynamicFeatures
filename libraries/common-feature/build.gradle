@@ -16,6 +16,7 @@ deps[project.name] = [
                 deps.kotlin.stdlib,
                 deps.play.core,
                 deps.okhttp.okhttp,
+                deps.test.junit,
                 deps.coroutines.core
         ]
 ]

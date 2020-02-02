@@ -44,7 +44,8 @@ ext.versions = versions
 def deps = [:]
 
 deps.kotlin = [
-        stdlib: "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
+        stdlib: "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin",
+        stdlib: "org.jetbrains.kotlin:kotlin-reflect:$versions.kotlin"
 ]
 
 deps.appcompat = [

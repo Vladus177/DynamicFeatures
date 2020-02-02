@@ -3,6 +3,7 @@ apply plugin: 'kotlin'
 
 deps[project.name] = [
         implementation: [
+                deps.test.junit,
                 deps.kotlin.stdlib
         ]
 ]

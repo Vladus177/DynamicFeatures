@@ -21,6 +21,7 @@ deps[project.name] = [
                 deps.dagger.android,
                 deps.dagger.support,
                 deps.lifecycle.livedata,
+                deps.test.junit,
                 deps.lifecycle.viewmodel,
                 deps.material.material,
                 deps.glide.core,

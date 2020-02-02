@@ -16,6 +16,7 @@ deps[project.name] = [
                 deps.kotlin.stdlib,
                 deps.okhttp.okhttp,
                 deps.okhttp.logging,
+                deps.test.junit,
                 deps.dagger.core
         ],
         kapt: [

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="vladus177.ru.dynamicfeatures">
+    package="com.vladus177.dynamicfeatures">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -28,7 +28,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="jeppeman.com"
+                    android:host="google.com"
                     android:scheme="http" />
                 <data android:scheme="https" />
             </intent-filter>

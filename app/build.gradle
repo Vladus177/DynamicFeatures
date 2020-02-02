@@ -44,6 +44,7 @@ deps[project.name] = [
                 deps.core.ktx,
                 deps.timber.timber,
                 deps.test.core,
+                deps.test.junit,
                 deps.test.fragment,
                 deps.autoservice.annotations,
                 project(':libraries:common-presentation'),

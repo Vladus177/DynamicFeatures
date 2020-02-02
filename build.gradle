@@ -27,7 +27,7 @@ ext {
     androidVersionName = "1.0"
     sourceCompatibilityVersion = JavaVersion.VERSION_1_8
     targetCompatibilityVersion = JavaVersion.VERSION_1_8
-    applicationIdBase = "com.jeppeman.jetpackplayground"
+    applicationIdBase = "com.vladus177.dynamicfeatures"
     testApplicationId = "${applicationIdBase}.test"
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     jvmTargetVersion = "1.8"
