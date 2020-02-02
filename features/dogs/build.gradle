@@ -17,10 +17,6 @@ android {
         }
     }
 
-    defaultConfig {
-        testInstrumentationRunner "com.jeppeman.jetpackplayground.video.MockApplicationTestRunner"
-    }
-
     sourceSets {
         androidTest {
             java.srcDirs += "src/sharedTest/java"
