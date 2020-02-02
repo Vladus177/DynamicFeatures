@@ -31,6 +31,7 @@ ext {
     testApplicationId = "${applicationIdBase}.test"
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     jvmTargetVersion = "1.8"
+    jvmTarget = JavaVersion.VERSION_1_8.toString()
 }
 
 subprojects {

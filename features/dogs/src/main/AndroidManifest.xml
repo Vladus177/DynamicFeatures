@@ -10,5 +10,9 @@
         </dist:delivery>
         <dist:fusing dist:include="true" />
     </dist:module>
+    <application
+        android:allowBackup="false">
+        <activity android:name=".ui.DogsActivity" />
+    </application>
 </manifest>
 

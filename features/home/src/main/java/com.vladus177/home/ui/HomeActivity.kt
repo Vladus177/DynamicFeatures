@@ -18,7 +18,7 @@ class HomeActivity : BaseActivity() {
         if (savedInstanceState == null) {
             val feature = featureManager.getFeature<HomeFeature, HomeFeature.Dependencies>(
                 dependencies = appComponent.homeFeatureDependencies
-            ) ?: throw IllegalStateException("Could not retrieve video feature")
+            ) ?: throw IllegalStateException("Could not retrieve dogs feature")
 
             supportFragmentManager.beginTransaction()
                 .add(R.id.fragmentContainer, feature.getMainScreen())

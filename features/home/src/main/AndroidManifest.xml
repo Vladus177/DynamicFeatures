@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.vladus177.home">
 
-    <application tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+    <application
+        tools:ignore="GoogleAppIndexingWarning"
+        android:allowBackup="false">
         <activity android:name=".ui.HomeActivity" />
     </application>
 
